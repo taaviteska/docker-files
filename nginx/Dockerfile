@@ -8,5 +8,8 @@ MAINTAINER Taavi Teska, taaviteska@gmail.com
 # Copy the configuration file
 COPY nginx.conf /etc/nginx/nginx.conf
 
+# Copy the default page
+COPY default.html /var/www/default/htdocs/index.html
+
 # Default command
 CMD ["nginx", "-g", "daemon off;"]

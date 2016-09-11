@@ -1,7 +1,7 @@
 .PHONY: release tag_latest build
 
 NAME = taaviteska/nginx
-VERSION = 1.11.1
+VERSION = 1.11.2
 
 build:
 	docker build -t $(NAME):$(VERSION) --rm .
