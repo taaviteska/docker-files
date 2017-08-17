@@ -1,6 +1,6 @@
 # taaviteska/nginx
 
-Nginx 1.11.3 with the default configuration
+Nginx 1.13.3 with the default configuration
 
 # Updating
 

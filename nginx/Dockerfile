@@ -1,7 +1,7 @@
 # From https://hub.docker.com/_/nginx/
 
-# Based on nginx 1.11.3
-FROM nginx:1.11.3
+# Based on nginx 1.13.3
+FROM nginx:1.13.3
 
 MAINTAINER Taavi Teska, taaviteska@gmail.com
 
